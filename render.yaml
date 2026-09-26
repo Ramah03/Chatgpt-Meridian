@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: meridian-allocation-arena
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+
