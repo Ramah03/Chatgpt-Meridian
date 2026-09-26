@@ -1,0 +1,10 @@
+{
+  "name": "meridian-allocation-arena",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Meridian multiplayer allocation strategy game",
+  "scripts": {
+    "start": "node server.cjs"
+  }
+}
+
